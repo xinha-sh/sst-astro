@@ -1,0 +1,18 @@
+{
+  "name": "blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sst bind astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.1.1",
+    "astro": "^2.10.13",
+    "astro-sst": "2.24.13",
+    "contentful": "^10.5.0"
+  }
+}
