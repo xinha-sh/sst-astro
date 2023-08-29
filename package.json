@@ -12,13 +12,16 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "2.24.13",
+    "sst": "2.24.17",
     "aws-cdk-lib": "2.91.0",
     "constructs": "10.2.69",
     "typescript": "^5.1.6",
     "@tsconfig/node16": "^16.1.1"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*", "blog"
+  ],
+  "volta": {
+    "node": "18.17.1"
+  }
 }

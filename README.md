@@ -1,1 +1,1 @@
-# sst-astro-contentful
+# sst-astro
