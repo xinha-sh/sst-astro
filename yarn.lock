@@ -3035,10 +3035,10 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-astro-sst@^2.24.17:
-  version "2.24.17"
-  resolved "https://registry.yarnpkg.com/astro-sst/-/astro-sst-2.24.17.tgz#cceb4413f5835da6b17b269510a9c612aaeee9eb"
-  integrity sha512-3MjiGO9VfV20HWHURQpzbBso17GhIysyhAjKcu1Kxfq1tAETFnwPNhw1BjwYTizB8FGy2YQhDZfKBKXSVslg/Q==
+astro-sst@2.24.24:
+  version "2.24.24"
+  resolved "https://registry.yarnpkg.com/astro-sst/-/astro-sst-2.24.24.tgz#9678702aec3a7eddd5b587411f3a88aa461e35fc"
+  integrity sha512-5PzAKh6Wcs9WyOCmGdOzDQa2sC9voBIxX6VwtcgxJeZNiqCRebLziXj5rsPU7YMBFr+wYEEvJdBnn3Vk+LV0xA==
   dependencies:
     "@astrojs/webapi" "^2.1.0"
     set-cookie-parser "^2.6.0"
@@ -6698,10 +6698,10 @@ sst-aws-cdk@2.91.0:
   optionalDependencies:
     fsevents "2.3.2"
 
-sst@2.24.17:
-  version "2.24.17"
-  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.17.tgz#87db9f350d9e2d4288d2ff94a0056bd1b6dca061"
-  integrity sha512-18claKpZiah1EL2yGvm+acL+XBRxR7YkHESv49cqlMI1zGSejYNSlPaDV8K+cFDbnrztkkZYXGZB6Av8r0/dLg==
+sst@2.24.24:
+  version "2.24.24"
+  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.24.tgz#7d070bada32428b329d33e56f2250f6ff4537f3f"
+  integrity sha512-G8q6YwsNUACuNq7BUQmE1JB+nzWGoX1DcvFcD8MZiUjSOzpNN9d7Sxfgo8um10IWGuk60nkSuEyohEQMQl53Gw==
   dependencies:
     "@aws-cdk/aws-apigatewayv2-alpha" "^2.91.0-alpha.0"
     "@aws-cdk/aws-apigatewayv2-authorizers-alpha" "^2.91.0-alpha.0"

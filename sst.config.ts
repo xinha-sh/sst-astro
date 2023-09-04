@@ -4,7 +4,7 @@ import { Web } from "./stacks/MyStack";
 export default {
   config(_input) {
     return {
-      name: "astro-contentful",
+      name: "astro-sst",
       region: "ap-south-1",
     };
   },
