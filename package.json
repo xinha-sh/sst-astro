@@ -12,11 +12,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "2.24.24",
-    "aws-cdk-lib": "2.91.0",
+    "@tsconfig/node18": "^18.2.2",
+    "aws-cdk-lib": "2.101.1",
     "constructs": "10.2.69",
-    "typescript": "^5.1.6",
-    "@tsconfig/node16": "^16.1.1"
+    "sst": "2.32.2",
+    "typescript": "^5.1.6"
   },
   "workspaces": [
     "packages/*",
@@ -24,5 +24,6 @@
   ],
   "volta": {
     "node": "18.17.1"
-  }
+  },
+  "packageManager": "yarn@4.0.1"
 }

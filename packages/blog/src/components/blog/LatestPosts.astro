@@ -1,0 +1,35 @@
+---
+import config from "../../config.mjs";
+import type { BlogPost } from "../../lib/contentful";
+import { contentfulClient } from "../../lib/contentful";
+import Post from "./Post.astro";
+
+const { postLimit = config.latestPosts, skipPost = "" } = Astro.props;
+
+const entries = await contentfulClient.getEntries<BlogPost>({
+  content_type: "blogPost",
+  limit: postLimit,
+  "fields.slug[nin]": [skipPost]
+});
+
+const posts = entries.items.map((item) => {
+  const { title, date, intro, slug, tags, coverImage, lastUpdatedBy} = item.fields;
+  return {
+    title,
+    slug,
+    intro,
+    tags,
+    coverImage,
+    author: lastUpdatedBy,
+    date: new Date(date).toLocaleDateString()
+  };
+});
+
+---
+<section class="container mx-auto max-w-screen-lg px-7 py-10 mb-10">
+    {
+        posts.map((post, index) => {
+          return <Post postData={post} num={index} />;
+        })
+    }
+</section>
